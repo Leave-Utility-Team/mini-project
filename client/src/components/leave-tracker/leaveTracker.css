@@ -1,0 +1,87 @@
+.body{
+    position:absolute;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+h3{
+  text-align: top right;
+  margin-top: -5px;
+  text-decoration-color: #53565a;
+  /* text-size-adjust: var(--date-primaryTitle); */
+}
+.main-outer{
+
+     /*background-color:rgb(117, 211, 141);*/
+    margin-top:4%;
+    /* margin-left: 30%; */
+    position:absolute;
+    /* z-index: -1; */
+    right: 300px;
+    width: 900px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10.5%;
+    right:1%
+}
+.LeaveTracker{
+
+    
+    /* margin-top:2%;
+    
+    text-align: center;
+    position:absolute;
+    right: 0;
+    width: 400px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    text-align: center;
+    /* right: 0; */
+    /* margin-top: 3%;
+    width: 50%;
+    height: 50%;
+    position: absolute; */
+   
+}
+.calendar-box {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    margin-left: 70%;
+    margin-top: 2px;
+    z-index: 1;
+    margin-left:70%;
+    margin-top:-30%;
+
+  }
+  .date-picker-buttons{
+
+/* color:rgb(212, 74, 212); */
+/* background-color: aqua; */
+padding-left: 5%;
+margin-top: 20px;
+
+
+color: #161515;
+background-color: #99898c;
+text-align:center;
+/* padding-left: 5%; */
+
+  }
+  :root {
+    --weekend: #53565a;
+    --date-light: #f8f9fa;
+    --date-primary: #53565a;
+    --date-success: #99898c;
+    --date-primaryLight: #eceaf5;
+    --date-primaryTitle: #99898c;
+    --date-hover: #53565a;
+    --date-highlight: #53565a;
+    --date-disabled:#c2c1cc;
+    --date-width: 260px;
+    --date-height: 280px;
+    --date-rangebg:#a4a3a1;
+    --date-rangetext:#f8f9fa;
+    --date-rangeDateBg:#53565a;
+  }
+  
